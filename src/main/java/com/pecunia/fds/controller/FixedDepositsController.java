@@ -104,7 +104,7 @@ public class FixedDepositsController
 		}
 	*/
 	
-	 @GetMapping("/getAllUsers") 
+	 @GetMapping("/getAllFixedDepositHolders") 
 	 public List<FixedDepositHolders>getAllFixedDepositHolders() { 
 		 return fixedDepositHoldersService.getAllFixedDepositHolders();
 				 }
