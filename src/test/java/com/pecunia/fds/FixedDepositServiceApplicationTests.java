@@ -16,9 +16,9 @@ import org.springframework.http.ResponseEntity;
 import com.pecunia.fds.dto.FixedDepositHolders;
 import com.pecunia.fds.dto.FixedDeposits;
 import com.pecunia.fds.service.FixedDepositHoldersService;
-//@SpringBootTest(webEnvironment=WebEnvironment.RANDOM_PORT)
+@SpringBootTest(webEnvironment=WebEnvironment.RANDOM_PORT)
 class FixedDepositServiceApplicationTests {
-/*	@Autowired
+	@Autowired
 	TestRestTemplate testRestTemplate;
 	public void setTestRestTemplate(TestRestTemplate testRestTemplate)
 	{
@@ -44,7 +44,7 @@ class FixedDepositServiceApplicationTests {
 		 Assertions.assertEquals(404, holder.getStatusCodeValue());
 	}
 
-	@Test
+/*	@Test
 	public void testAddFixedDepositDetails_Positive() throws Exception
 	{
 		 String url="http://localhost:"+localServerPort+"insertFixedDeposit";
@@ -62,5 +62,5 @@ class FixedDepositServiceApplicationTests {
 		 //Assertions.assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCodeValue());
 	}
 
-}*/
+*/
 }
