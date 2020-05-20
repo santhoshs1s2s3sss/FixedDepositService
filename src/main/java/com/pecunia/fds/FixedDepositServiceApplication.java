@@ -21,7 +21,7 @@ public class FixedDepositServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FixedDepositServiceApplication.class, args);
-		System.out.println("fxddepositservice");
+		System.out.println("runs on server");
 	}
 	@Bean
     public Docket produceApi()
